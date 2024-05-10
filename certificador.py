@@ -64,6 +64,7 @@ class Certificado:
 
         self.documento.save()
 
+
 # Lendo o arquivo CSV
 arquivo_csv = "participantes.csv"
 dados = pd.read_csv(arquivo_csv)
